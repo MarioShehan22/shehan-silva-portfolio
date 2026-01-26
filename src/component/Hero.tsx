@@ -158,10 +158,10 @@ function Hero() {
                         Let's Connect →
                     </a>
                     <a
-                        href="mailto:marionilanka@gmail.com"
+                        href="mailto:marioshehan025@gmail.com"
                         className="text-purple-300 hover:text-white transition-colors flex items-center gap-2"
                     >
-                        📧 marionilanka@gmail.com
+                        📧 marioshehan025@gmail.com
                     </a>
                 </div>
 
