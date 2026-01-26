@@ -2,16 +2,13 @@ import { useEffect, useRef } from "react";
 import * as THREE from "three";
 
 const iconPaths = [
-    "../../public/Angular.svg",
     "../../public/React.svg",
     "../../public/Spring Boot.svg",
     "../../public/Node.js.svg",
-    "../../public/aws.svg",
     "../../public/Python.svg",
     "../../public/Java.svg",
     "../../public/postgresql.svg",
     "../../public/mongodb.svg",
-    "../../public/ysql.svg",
     "../../public/Express.js.svg",
 ];
 
@@ -131,52 +128,59 @@ function Hero() {
 
             <div className="text-center max-w-5xl mx-auto">
                 <div className="mb-8 animate-float">
-                    <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-3xl mx-auto mb-6 glow">
-                        🚀
+                    <div
+                        className="w-20 h-20 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center text-3xl mx-auto mb-6 glow">
+                        💻
                     </div>
                 </div>
 
                 <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6 text-shadow leading-tight">
-                    I help founders turn ideas
-                    <br />
-                    into seamless <span className="gradient-text">digital experiences</span>
+                    Building <span className="gradient-text">innovative solutions</span>
+                    <br/>
+                    from IoT to Full-Stack
                 </h1>
 
                 <div className="flex items-center justify-center gap-4 text-xl sm:text-2xl mb-8 flex-wrap">
-                    <span>Hello, I'm Shehan Silva</span>
-                    <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-sm">
+                    <span>Hi, I'm Shehan Silva</span>
+                    <div
+                        className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center text-sm">
                         ⚡
                     </div>
-                    <span>a Full Stack Engineer</span>
+                    <span>CS Undergraduate & Full Stack Developer</span>
                 </div>
+
+                <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
+                    Passionate about creating user-focused solutions with expertise in MERN stack,
+                    Spring Boot, and IoT systems. Currently pursuing BSc. (Hons) in Computer Science.
+                </p>
 
                 <div className="flex items-center justify-center gap-6 flex-wrap">
                     <a
                         href="#contact"
                         className="glass px-8 py-4 rounded-full font-semibold hover:bg-white hover:bg-opacity-20 transition-all transform hover:scale-105 flex items-center gap-2"
                     >
-                        Let's Connect →
+                        Get In Touch →
                     </a>
                     <a
-                        href="mailto:marioshehan025@gmail.com"
-                        className="text-purple-300 hover:text-white transition-colors flex items-center gap-2"
+                        href="mailto:marionilanka@gmail.com"
+                        className="text-blue-300 hover:text-white transition-colors flex items-center gap-2"
                     >
-                        📧 marioshehan025@gmail.com
+                        📧 marionilanka@gmail.com
                     </a>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-16 max-w-3xl mx-auto">
                     <div className="glass p-6 rounded-2xl text-center">
-                        <div className="text-3xl font-bold gradient-text">20+</div>
-                        <div className="text-gray-300 mt-2">Projects Completed</div>
+                        <div className="text-3xl font-bold gradient-text">8+</div>
+                        <div className="text-gray-300 mt-2">Full-Stack & IoT Projects</div>
+                    </div>
+                    <div className="glass p-6 rounded-2xl text-center">
+                        <div className="text-3xl font-bold gradient-text">MERN <br/>+ Spring</div>
+                        <div className="text-gray-300 mt-2">Tech Stack Expertise</div>
                     </div>
                     <div className="glass p-6 rounded-2xl text-center">
                         <div className="text-3xl font-bold gradient-text">2+</div>
-                        <div className="text-gray-300 mt-2">Years Experience</div>
-                    </div>
-                    <div className="glass p-6 rounded-2xl text-center">
-                        <div className="text-3xl font-bold gradient-text">98%</div>
-                        <div className="text-gray-300 mt-2">Client Satisfaction</div>
+                        <div className="text-gray-300 mt-2">Years Web Master Experience</div>
                     </div>
                 </div>
             </div>

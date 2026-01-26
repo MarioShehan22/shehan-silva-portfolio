@@ -10,8 +10,8 @@ function NavigationHeader() {
                         <a href="#home" className="nav-link hover:text-purple-400 transition-colors">Home</a>
                         <a href="#about" className="nav-link hover:text-purple-400 transition-colors">About</a>
                         <a href="#projects" className="nav-link hover:text-purple-400 transition-colors">Projects</a>
-                        <a href="#testimonials"
-                           className="nav-link hover:text-purple-400 transition-colors">Testimonials</a>
+                        {/*<a href="#testimonials"*/}
+                        {/*   className="nav-link hover:text-purple-400 transition-colors">Testimonials</a>*/}
                         <a href="#contact" className="nav-link hover:text-purple-400 transition-colors">Contact</a>
                     </div>
 

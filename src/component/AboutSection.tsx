@@ -6,8 +6,8 @@ function AboutSection() {
                 <div className="text-center mb-16">
                     <h2 className="text-4xl sm:text-5xl font-bold mb-6 gradient-text">About Me</h2>
                     <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                        Passionate full-stack developer with expertise in modern web technologies and a keen eye for
-                        user experience design.
+                        Computer Science undergraduate passionate about building practical, user-focused solutions
+                        with expertise in full-stack development and IoT systems.
                     </p>
                 </div>
 
@@ -16,30 +16,34 @@ function AboutSection() {
                         <div className="glass p-8 rounded-3xl">
                             <div className="flex items-center gap-4 mb-4">
                                 <div
-                                    className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center">
-                                    💼
+                                    className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl flex items-center justify-center">
+                                    🎓
                                 </div>
-                                <h3 className="text-2xl font-bold">Collaboration First</h3>
+                                <h3 className="text-2xl font-bold">Academic Excellence</h3>
                             </div>
-                            <p className="text-gray-300">I prioritize client collaboration, fostering open communication
-                                throughout the development process to ensure your vision becomes reality.</p>
+                            <p className="text-gray-300">Pursuing BSc. (Hons) in Computer Science,
+                                specializing in data structures, algorithm optimization, scalable architecture, and
+                                distributed systems.
+                            </p>
                         </div>
 
                         <div className="glass p-8 rounded-3xl">
                             <div className="flex items-center gap-4 mb-4">
                                 <div
-                                    className="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center">
-                                    🌍
+                                    className="w-12 h-12 bg-gradient-to-r from-green-500 to-teal-500 rounded-xl flex items-center justify-center">
+                                    🤝
                                 </div>
-                                <h3 className="text-2xl font-bold">Global Availability</h3>
+                                <h3 className="text-2xl font-bold">Team Player</h3>
                             </div>
-                            <p className="text-gray-300">Flexible with time zones and committed to maintaining clear
-                                communication regardless of geographical boundaries.</p>
+                            <p className="text-gray-300">Strong communicator who works well in teams. Currently serving
+                                as
+                                Web Master for IEEE CS Chapter and Gavel Club, delivering professional websites and
+                                solutions.</p>
                         </div>
                     </div>
 
                     <div className="glass p-8 rounded-3xl">
-                        <h3 className="text-2xl font-bold mb-6">Tech Stack</h3>
+                        <h3 className="text-2xl font-bold mb-6">Core Technologies</h3>
                         <div className="grid grid-cols-4 gap-4">
                             <div className="group">
                                 <div
@@ -290,71 +294,70 @@ function AboutSection() {
                     </div>
                 </div>
 
-                 {/*Services Grid */}
+                {/*Services Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div className="glass p-8 rounded-3xl hover:scale-105 transition-transform">
                         <div
-                            className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-4">
-                            🚀
+                            className="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center mb-4">
+                            💻
                         </div>
                         <h3 className="text-xl font-bold mb-3">Full Stack Development</h3>
-                        <p className="text-gray-300">End-to-end web application development with modern technologies and
-                            best practices.</p>
+                        <p className="text-gray-300">Building end-to-end web applications with MERN stack and Spring
+                            Boot,
+                            from database design to responsive user interfaces.</p>
                     </div>
 
                     <div className="glass p-8 rounded-3xl hover:scale-105 transition-transform">
                         <div
-                            className="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center mb-4">
-                            📊
+                            className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-4">
+                            🔌
                         </div>
-                        <h3 className="text-xl font-bold mb-3">API Development</h3>
-                        <p className="text-gray-300">RESTful API design and development with proper documentation and
-                            security.</p>
+                        <h3 className="text-xl font-bold mb-3">IoT Solutions</h3>
+                        <p className="text-gray-300">Developing smart IoT systems with real-time monitoring, RFID
+                            integration,
+                            and automated control systems for practical applications.</p>
                     </div>
 
                     <div className="glass p-8 rounded-3xl hover:scale-105 transition-transform">
                         <div
                             className="w-12 h-12 bg-gradient-to-r from-green-500 to-teal-500 rounded-xl flex items-center justify-center mb-4">
-                            🎨
+                            🔐
                         </div>
-                        <h3 className="text-xl font-bold mb-3">UI/UX Design</h3>
-                        <p className="text-gray-300">User-centered design with focus on accessibility and modern
-                            aesthetics.</p>
+                        <h3 className="text-xl font-bold mb-3">Secure Authentication</h3>
+                        <p className="text-gray-300">Implementing JWT authentication, role-based access control (RBAC),
+                            and secure session management for enterprise applications.</p>
+                    </div>
+
+                    <div className="glass p-8 rounded-3xl hover:scale-105 transition-transform">
+                        <div
+                            className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-xl flex items-center justify-center mb-4">
+                            📊
+                        </div>
+                        <h3 className="text-xl font-bold mb-3">Real-Time Dashboards</h3>
+                        <p className="text-gray-300">Creating interactive dashboards with real-time data visualization,
+                            analytics, and inventory tracking for business insights.</p>
                     </div>
 
                     <div className="glass p-8 rounded-3xl hover:scale-105 transition-transform">
                         <div
                             className="w-12 h-12 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-xl flex items-center justify-center mb-4">
-                            ☁️
+                            🎨
                         </div>
-                        <h3 className="text-xl font-bold mb-3">Cloud Solutions</h3>
-                        <p className="text-gray-300">Scalable cloud infrastructure and deployment strategies.</p>
-                    </div>
-
-                    <div className="glass p-8 rounded-3xl hover:scale-105 transition-transform">
-                        <div
-                            className="w-12 h-12 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-xl flex items-center justify-center mb-4">
-                            ⚙️
-                        </div>
-                        <h3 className="text-xl font-bold mb-3">DevOps & Cloud</h3>
-                        <p className="text-gray-300">
-                            CI/CD pipelines, containerization, cloud infrastructure, and reliable deployments for your
-                            applications.
-                        </p>
+                        <h3 className="text-xl font-bold mb-3">Responsive Design</h3>
+                        <p className="text-gray-300">Crafting professional, responsive websites and applications with
+                            modern UI/UX principles using Figma and Bootstrap.</p>
                     </div>
 
                     <div className="glass p-8 rounded-3xl hover:scale-105 transition-transform">
                         <div
                             className="w-12 h-12 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-xl flex items-center justify-center mb-4">
-                            🤖
+                            📱
                         </div>
-                        <h3 className="text-xl font-bold mb-3">AI & Automation</h3>
-                        <p className="text-gray-300">
-                            AI-powered features, intelligent automation, and integrations to make your products smarter
-                            and more efficient.
-                        </p>
+                        <h3 className="text-xl font-bold mb-3">Context-Aware Apps</h3>
+                        <p className="text-gray-300">Developing intelligent mobile applications that adapt to user
+                            context
+                            using location, time, and environmental data.</p>
                     </div>
-
                 </div>
             </div>
         </section>
