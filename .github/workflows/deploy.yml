@@ -3,7 +3,7 @@ name: Deploy React Portfolio to EC2
 on:
   push:
     branches:
-      - main   # change if your main branch is 'master'
+      - main
 
 jobs:
   build-and-deploy:
