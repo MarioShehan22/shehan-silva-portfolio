@@ -1,0 +1,62 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient definitions -->
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E90FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4169E1;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1E90FF;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#00BFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E90FF;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+
+  <!-- SS Monogram Icon -->
+  <g id="monogram" transform="translate(100, 140)">
+    <!-- Outer hexagon frame -->
+    <path d="M 60 0 L 100 23.09 L 100 69.28 L 60 92.38 L 20 69.28 L 20 23.09 Z"
+          fill="none"
+          stroke="url(#accentGradient)"
+          stroke-width="2"
+          opacity="0.6"/>
+
+    <!-- First S -->
+    <path d="M 40 25 Q 35 20 40 15 L 65 15 Q 70 15 70 20 Q 70 25 65 27 L 45 35 Q 40 37 40 42 Q 40 47 45 47 L 70 47 Q 75 47 80 52"
+          fill="none"
+          stroke="url(#blueGradient)"
+          stroke-width="4"
+          stroke-linecap="round"/>
+
+    <!-- Second S (mirrored and offset) -->
+    <path d="M 40 50 Q 35 45 40 40 L 65 40 Q 70 40 70 45 Q 70 50 65 52 L 45 60 Q 40 62 40 67 Q 40 72 45 72 L 70 72 Q 75 72 80 77"
+          fill="none"
+          stroke="#FFFFFF"
+          stroke-width="4"
+          stroke-linecap="round"
+          opacity="0.9"/>
+  </g>
+
+  <!-- Text: SHEHAN SILVA -->
+  <g id="text" transform="translate(220, 200)">
+    <!-- SHEHAN -->
+    <text x="0" y="0"
+          font-family="'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+          font-size="52"
+          font-weight="700"
+          letter-spacing="2"
+          fill="url(#blueGradient)">SHEHAN</text>
+
+    <!-- Accent line -->
+    <line x1="0" y1="15" x2="280" y2="15"
+          stroke="url(#accentGradient)"
+          stroke-width="1.5"
+          opacity="0.5"/>
+  </g>
+
+  <!-- Decorative tech elements -->
+  <circle cx="180" cy="200" r="3" fill="#1E90FF" opacity="0.6"/>
+  <circle cx="200" cy="185" r="2" fill="#00BFFF" opacity="0.4"/>
+  <circle cx="195" cy="215" r="2.5" fill="#1E90FF" opacity="0.5"/>
+</svg>

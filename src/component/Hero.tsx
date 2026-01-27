@@ -127,7 +127,7 @@ function Hero() {
             <div id="three-container" ref={threeContainerRef} />
 
             <div className="text-center max-w-5xl mx-auto">
-                <div className="mb-8 animate-float">
+                <div className="mb-8 mt-28 animate-float">
                     <div
                         className="w-20 h-20 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center text-3xl mx-auto mb-6 glow">
                         💻
