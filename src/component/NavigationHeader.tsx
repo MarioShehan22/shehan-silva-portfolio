@@ -162,13 +162,6 @@ function NavigationHeader() {
                         >
                             Contact
                         </a>
-                        <a
-                            href="#contact"
-                            className="block bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-2 rounded-full text-white font-semibold text-center hover:scale-105 transition-transform"
-                            onClick={closeMobileMenu}
-                        >
-                            Book a Call
-                        </a>
                     </div>
                 </div>
             </div>

@@ -121,19 +121,11 @@ function AboutSection() {
                                 <div
                                     className="glass p-4 rounded-xl hover:bg-red-500 hover:bg-opacity-20 transition-all flex justify-center">
                                     <div className="text-2xl mb-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
-                                             viewBox="0 0 48 48">
-                                            <path fill="#bdbdbd"
-                                                  d="M23.933 2L3 9.285 6.308 36.408 23.955 46 41.693 36.278 45 9.156z"></path>
-                                            <path fill="#b71c1c"
-                                                  d="M42.818 10.527L24 4.135 24 43.695 39.832 35.017z"></path>
-                                            <path fill="#dd2c00"
-                                                  d="M23.941 4.115L5.181 10.644 8.168 35.143 23.951 43.721 24 43.695 24 4.135z"></path>
-                                            <path fill="#bdbdbd" d="M24 5.996L24 15.504 32.578 34 36.987 34z"></path>
-                                            <path fill="#eee" d="M11.013 34L15.422 34 24 15.504 24 5.996z"></path>
-                                            <path fill="#bdbdbd" d="M24 24H30V28H24z"></path>
-                                            <path fill="#eee" d="M18 24H24V28H18z"></path>
-                                        </svg>
+                                        <img
+                                            src="/github.png"
+                                            alt="Linux"
+                                            style={{width: "45px", height: "50px"}}
+                                        />
                                     </div>
                                 </div>
                             </div>
@@ -230,37 +222,12 @@ function AboutSection() {
                                 <div
                                     className="glass p-4 rounded-xl hover:bg-indigo-500 hover:bg-opacity-20 transition-all flex justify-center">
                                     <div className="text-2xl mb-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
-                                             viewBox="0 0 48 48">
-                                            <linearGradient id="NRNx2IPDe7PJlJvrxOKgWa_MWiBjkuHeMVq_gr1" x1="24" x2="24"
-                                                            y1="43.734" y2="4.266" gradientUnits="userSpaceOnUse">
-                                                <stop offset="0" stop-color="#0a070a"></stop>
-                                                <stop offset=".465" stop-color="#2b2b2b"></stop>
-                                                <stop offset="1" stop-color="#4b4b4b"></stop>
-                                            </linearGradient>
-                                            <circle cx="24" cy="24" r="19.734"
-                                                    fill="url(#NRNx2IPDe7PJlJvrxOKgWa_MWiBjkuHeMVq_gr1)"></circle>
-                                            <rect width="3.023" height="15.996" x="15.992" y="16.027"
-                                                  fill="#fff"></rect>
-                                            <linearGradient id="NRNx2IPDe7PJlJvrxOKgWb_MWiBjkuHeMVq_gr2" x1="30.512"
-                                                            x2="30.512" y1="33.021" y2="18.431"
-                                                            gradientUnits="userSpaceOnUse">
-                                                <stop offset=".377" stop-color="#fff" stop-opacity="0"></stop>
-                                                <stop offset=".666" stop-color="#fff" stop-opacity=".3"></stop>
-                                                <stop offset=".988" stop-color="#fff"></stop>
-                                            </linearGradient>
-                                            <rect width="2.953" height="14.59" x="29.035" y="15.957"
-                                                  fill="url(#NRNx2IPDe7PJlJvrxOKgWb_MWiBjkuHeMVq_gr2)"></rect>
-                                            <linearGradient id="NRNx2IPDe7PJlJvrxOKgWc_MWiBjkuHeMVq_gr3" x1="22.102"
-                                                            x2="36.661" y1="21.443" y2="40.529"
-                                                            gradientUnits="userSpaceOnUse">
-                                                <stop offset=".296" stop-color="#fff"></stop>
-                                                <stop offset=".521" stop-color="#fff" stop-opacity=".5"></stop>
-                                                <stop offset=".838" stop-color="#fff" stop-opacity="0"></stop>
-                                            </linearGradient>
-                                            <polygon fill="url(#NRNx2IPDe7PJlJvrxOKgWc_MWiBjkuHeMVq_gr3)"
-                                                     points="36.781,38.094 34.168,39.09 15.992,16.027 19.508,16.027"></polygon>
-                                        </svg>
+                                        <img
+                                            src="/linux.png"
+                                            alt="Linux"
+                                            style={{width: "45px", height: "50px"}}
+                                        />
+
                                     </div>
                                 </div>
                             </div>
