@@ -41,7 +41,7 @@ function ProjectsSection() {
                 description:
                     "IoT-based smart parking management system using ESP8266/Arduino + Node.js + MongoDB + React to monitor slots and manage parking in real time.",
                 categories: ["web"],
-                tags: ["ESP8266", "Node.js", "MongoDB", "React"],
+                tags: ["ESP8266", "Node.js", "MongoDB", "React", "Express"],
                 emoji: "🚗",
                 gradient: "from-blue-600 to-cyan-600",
                 featured: true,
@@ -54,7 +54,7 @@ function ProjectsSection() {
                 description:
                     "Health & fitness tracking web app for logging meals and workouts, calculating BMI/macros, and generating personalized nutrition insights.",
                 categories: ["web", "ai"],
-                tags: ["MERN", "React", "Node.js", "MongoDB"],
+                tags: ["Express", "React", "Node.js", "MongoDB", "OpenAi"],
                 emoji: "🥗",
                 gradient: "from-green-500 to-emerald-600",
                 featured: true,
@@ -68,7 +68,7 @@ function ProjectsSection() {
                 description:
                     "Full-stack web application with a separate frontend and backend for managing core business workflows, built with modern web technologies.",
                 categories: ["web"],
-                tags: ["Frontend", "Backend", "JavaScript"],
+                tags: ["Express", "React", "Node.js", "MongoDB", "Firebase"],
                 emoji: "💎",
                 gradient: "from-orange-500 to-red-500",
                 links: {
