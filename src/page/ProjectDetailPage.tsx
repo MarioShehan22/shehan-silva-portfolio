@@ -10,8 +10,8 @@ type ProjectDetail = {
     categories: TabKey[];
     tags: string[];
     emoji: string;
-    gradient: string;        // Tailwind gradient classes e.g. "from-purple-600 to-pink-600"
-    thumbnailUrl?: string;   // Optional real image for card hero area
+    gradient: string;
+    thumbnailUrl?: string;
     accentColor: string;
     featured?: boolean;
     links?: {
@@ -22,47 +22,47 @@ type ProjectDetail = {
     highlights: { icon: string; label: string; value: string }[];
     features: { title: string; description: string }[];
     techStack: { name: string; role: string }[];
-    screenshots: string[];   // URLs or gradient class strings
+    screenshots: string[];
 };
 
 const projects: ProjectDetail[] = [
-    {
-        title: "Smart-Stock Prime",
-        subtitle: "Inventory Management System",
-        description: "Full-stack inventory management system for tracking products, stock levels, suppliers, and sales.",
-        longDescription: "A comprehensive inventory management platform built to streamline operations for businesses of all sizes. Features real-time stock monitoring, automated low-stock alerts, supplier relationship management, and detailed sales analytics through an intuitive admin dashboard. The REST API enables seamless integration with third-party tools and mobile applications.",
-        categories: ["web"],
-        tags: ["React", "Node.js", "Express", "MongoDB"],
-        emoji: "",
-        thumbnailUrl: "https://res.cloudinary.com/dywmv9onv/image/upload/v1773259896/vifrcka1rqejswt5a3yh.png",
-        gradient: "",
-        accentColor: "#c026d3",
-        links: { github: "https://github.com/MarioShehan22/Smart-Stock-Prime-Inventory-Management-System" },
-        highlights: [
-            { icon: "📊", label: "Dashboard Views", value: "12+" },
-            { icon: "🔗", label: "REST Endpoints", value: "30+" },
-            { icon: "⚡", label: "Real-time Updates", value: "Yes" },
-        ],
-        features: [
-            { title: "Real-time Stock Monitoring", description: "Live inventory tracking with instant updates across all connected devices." },
-            { title: "Supplier Management", description: "Complete supplier profiles, order history, and contact management." },
-            { title: "Sales Analytics", description: "Detailed charts and reports to understand sales trends and optimize stock." },
-            { title: "Admin Dashboard", description: "Role-based access control with comprehensive admin tools and audit logs." },
-        ],
-        techStack: [
-            { name: "React", role: "Frontend UI" },
-            { name: "Node.js", role: "Runtime" },
-            { name: "Express", role: "REST API" },
-            { name: "MongoDB", role: "Database" },
-        ],
-        screenshots: [
-            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773259896/vifrcka1rqejswt5a3yh.png",
-            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773259848/ezg0tqncvvparetpegp3.png",
-            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773259927/fwfmsbblknukivglln1g.png",
-            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773259945/glrcgosjvqkdppsrwz7e.png",
-            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773259975/bgwzobwk3fytklqnxnib.png"
-        ],
-    },
+    // {
+    //     title: "Smart-Stock Prime",
+    //     subtitle: "Inventory Management System",
+    //     description: "Full-stack inventory management system for tracking products, stock levels, suppliers, and sales.",
+    //     longDescription: "A comprehensive inventory management platform built to streamline operations for businesses of all sizes. Features real-time stock monitoring, automated low-stock alerts, supplier relationship management, and detailed sales analytics through an intuitive admin dashboard. The REST API enables seamless integration with third-party tools and mobile applications.",
+    //     categories: ["web"],
+    //     tags: ["React", "Node.js", "Express", "MongoDB"],
+    //     emoji: "",
+    //     thumbnailUrl: "https://res.cloudinary.com/dywmv9onv/image/upload/v1773259896/vifrcka1rqejswt5a3yh.png",
+    //     gradient: "",
+    //     accentColor: "#c026d3",
+    //     links: { github: "https://github.com/MarioShehan22/Smart-Stock-Prime-Inventory-Management-System" },
+    //     highlights: [
+    //         { icon: "📊", label: "Dashboard Views", value: "12+" },
+    //         { icon: "🔗", label: "REST Endpoints", value: "30+" },
+    //         { icon: "⚡", label: "Real-time Updates", value: "Yes" },
+    //     ],
+    //     features: [
+    //         { title: "Real-time Stock Monitoring", description: "Live inventory tracking with instant updates across all connected devices." },
+    //         { title: "Supplier Management", description: "Complete supplier profiles, order history, and contact management." },
+    //         { title: "Sales Analytics", description: "Detailed charts and reports to understand sales trends and optimize stock." },
+    //         { title: "Admin Dashboard", description: "Role-based access control with comprehensive admin tools and audit logs." },
+    //     ],
+    //     techStack: [
+    //         { name: "React", role: "Frontend UI" },
+    //         { name: "Node.js", role: "Runtime" },
+    //         { name: "Express", role: "REST API" },
+    //         { name: "MongoDB", role: "Database" },
+    //     ],
+    //     screenshots: [
+    //         "https://res.cloudinary.com/dywmv9onv/image/upload/v1773259896/vifrcka1rqejswt5a3yh.png",
+    //         "https://res.cloudinary.com/dywmv9onv/image/upload/v1773259848/ezg0tqncvvparetpegp3.png",
+    //         "https://res.cloudinary.com/dywmv9onv/image/upload/v1773259927/fwfmsbblknukivglln1g.png",
+    //         "https://res.cloudinary.com/dywmv9onv/image/upload/v1773259945/glrcgosjvqkdppsrwz7e.png",
+    //         "https://res.cloudinary.com/dywmv9onv/image/upload/v1773259975/bgwzobwk3fytklqnxnib.png"
+    //     ],
+    // },
     {
         title: "Vehicle Parking",
         subtitle: "Smart Parking System",
@@ -72,7 +72,7 @@ const projects: ProjectDetail[] = [
         tags: ["ESP8266", "Node.js", "MongoDB", "React", "Express"],
         emoji: "",
         thumbnailUrl: "https://res.cloudinary.com/dywmv9onv/image/upload/v1773259192/owekx196zvhpwytqcbfq.png",
-        gradient: "",
+        gradient: "#0891b2",
         accentColor: "#0891b2",
         featured: true,
         links: { github: "https://github.com/MarioShehan22/Vehicle_Parking" },
@@ -109,7 +109,7 @@ const projects: ProjectDetail[] = [
         categories: ["web", "ai"],
         tags: ["Express", "React", "Node.js", "MongoDB", "OpenAI"],
         emoji: "",
-        gradient: "",
+        gradient: "#059669",
         thumbnailUrl: "https://res.cloudinary.com/dywmv9onv/image/upload/v1773259419/judragyd2n6g7wdtdknn.png",
         accentColor: "#059669",
         featured: true,
@@ -148,7 +148,7 @@ const projects: ProjectDetail[] = [
         categories: ["web"],
         tags: ["Express", "React", "Node.js", "MongoDB", "Firebase"],
         emoji: "💎",
-        gradient: "",
+        gradient: "#ea580c",
         thumbnailUrl: "https://res.cloudinary.com/dywmv9onv/image/upload/v1773248094/gsdvbiuwejgpz9yyfjv9.png",
         accentColor: "#ea580c",
         links: { github: "https://github.com/MarioShehan22/richlook_Web_Project" },
@@ -184,36 +184,155 @@ const projects: ProjectDetail[] = [
             "https://res.cloudinary.com/dywmv9onv/image/upload/v1773248748/iibnkfueo069iv2iqxqw.png",
         ],
     },
+    // {
+    //     title: "MERN Supply & Demand",
+    //     subtitle: "Supply Chain Management App",
+    //     description: "MERN-based app for listing items, matching requests, tracking availability, and managing records.",
+    //     longDescription: "A dynamic supply and demand matching platform that connects suppliers with buyers in real time. The application enables suppliers to list available inventory with quantities and pricing, while buyers can post demand requests. An intelligent matching algorithm pairs compatible listings and notifies both parties, with a responsive dashboard tracking all transactions and availability trends.",
+    //     categories: ["web"],
+    //     tags: ["MongoDB", "Express", "React", "Node.js"],
+    //     emoji: "📈",
+    //     gradient: "from-teal-500 to-lime-500",
+    //     accentColor: "#0d9488",
+    //     links: { github: "https://github.com/MarioShehan22/MERN_Supply_Demand" },
+    //     highlights: [
+    //         { icon: "🔄", label: "Matching Engine", value: "Auto" },
+    //         { icon: "📋", label: "CRUD Operations", value: "Full" },
+    //         { icon: "📱", label: "Responsive", value: "Yes" },
+    //     ],
+    //     features: [
+    //         { title: "Smart Matching", description: "Algorithm automatically pairs supply listings with matching demand requests." },
+    //         { title: "Item Listings", description: "Rich product listings with quantities, pricing, and availability windows." },
+    //         { title: "Availability Tracking", description: "Live inventory updates as items are matched and transactions completed." },
+    //         { title: "Analytics Dashboard", description: "Visual breakdown of supply/demand trends and transaction history." },
+    //     ],
+    //     techStack: [
+    //         { name: "MongoDB", role: "Database" },
+    //         { name: "Express", role: "API Layer" },
+    //         { name: "React", role: "Frontend" },
+    //         { name: "Node.js", role: "Server Runtime" },
+    //     ],
+    //     screenshots: ["from-teal-800 to-green-700", "from-green-700 to-lime-600", "from-teal-700 to-cyan-600"],
+    // },
     {
-        title: "MERN Supply & Demand",
-        subtitle: "Supply Chain Management App",
-        description: "MERN-based app for listing items, matching requests, tracking availability, and managing records.",
-        longDescription: "A dynamic supply and demand matching platform that connects suppliers with buyers in real time. The application enables suppliers to list available inventory with quantities and pricing, while buyers can post demand requests. An intelligent matching algorithm pairs compatible listings and notifies both parties, with a responsive dashboard tracking all transactions and availability trends.",
+        title: "POS & Inventory System",
+        subtitle: "Enterprise POS & Stock Management Platform",
+        description: "Production-grade Point of Sale and Inventory Management System with secure authentication, stock control, and containerized deployment.",
+        longDescription: "A full-stack POS and inventory management platform designed to simulate a real-world retail system. The backend is powered by Spring Boot with a secure OAuth2/OIDC authentication flow using Keycloak. The system manages products, batches, suppliers, customers, and orders while maintaining accurate stock levels through pessimistic locking. A React-based POS interface enables fast order processing, live product browsing, and receipt printing. The entire stack is containerized using Docker Compose, orchestrating Spring Boot, MySQL, Keycloak, and a React frontend served via Nginx.",
         categories: ["web"],
-        tags: ["MongoDB", "Express", "React", "Node.js"],
-        emoji: "📈",
-        gradient: "from-teal-500 to-lime-500",
-        accentColor: "#0d9488",
-        links: { github: "https://github.com/MarioShehan22/MERN_Supply_Demand" },
+        tags: ["Spring Boot", "Java", "React", "MySQL", "Keycloak", "Docker"],
+        emoji: "🧾",
+        thumbnailUrl: "https://res.cloudinary.com/dywmv9onv/image/upload/v1773590943/h4y7dywqhay2w7q1die5.png",
+        gradient: "from-indigo-600 to-purple-600",
+        accentColor: "#4f46e5",
+        featured: true,
+        links: {
+            github: "https://github.com/MarioShehan22/inventory-management-React-SpringBoot.git"
+        },
         highlights: [
-            { icon: "🔄", label: "Matching Engine", value: "Auto" },
-            { icon: "📋", label: "CRUD Operations", value: "Full" },
-            { icon: "📱", label: "Responsive", value: "Yes" },
+            { icon: "🛒", label: "POS Interface", value: "Real-time" },
+            { icon: "📦", label: "Inventory Entities", value: "10+" },
+            { icon: "🔐", label: "Authentication", value: "Keycloak" },
         ],
         features: [
-            { title: "Smart Matching", description: "Algorithm automatically pairs supply listings with matching demand requests." },
-            { title: "Item Listings", description: "Rich product listings with quantities, pricing, and availability windows." },
-            { title: "Availability Tracking", description: "Live inventory updates as items are matched and transactions completed." },
-            { title: "Analytics Dashboard", description: "Visual breakdown of supply/demand trends and transaction history." },
+            {
+                title: "Secure Authentication",
+                description: "Keycloak-based OAuth2/OIDC authentication with JWT validation and role-based access control."
+            },
+            {
+                title: "Real-time POS Interface",
+                description: "React POS panel with product grid, cart management, discounts, customer search, and printable receipts."
+            },
+            {
+                title: "Advanced Inventory Control",
+                description: "Normalized database schema with pessimistic locking to prevent stock conflicts during concurrent orders."
+            },
+            {
+                title: "Email Order Confirmations",
+                description: "Asynchronous email notifications with styled HTML receipts using JavaMailSender."
+            }
         ],
         techStack: [
-            { name: "MongoDB", role: "Database" },
-            { name: "Express", role: "API Layer" },
-            { name: "React", role: "Frontend" },
-            { name: "Node.js", role: "Server Runtime" },
+            { name: "Java 17", role: "Backend Language" },
+            { name: "Spring Boot", role: "Backend Framework" },
+            { name: "Spring Security", role: "Authentication & Authorization" },
+            { name: "Keycloak", role: "Identity Provider" },
+            { name: "MySQL", role: "Database" },
+            { name: "React", role: "Frontend POS Interface" },
+            { name: "Docker", role: "Containerization" },
+            { name: "Nginx", role: "Frontend Server" }
         ],
-        screenshots: ["from-teal-800 to-green-700", "from-green-700 to-lime-600", "from-teal-700 to-cyan-600"],
+        screenshots: [
+            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773590943/h4y7dywqhay2w7q1die5.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773590939/xh6s13qmdbgphtuar9f2.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773590939/dtkdlbcvhlpqli2uejau.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773590939/sifhzplpxm026m6egkh8.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773590940/m1c3xikvzgdi4pv21qip.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773590941/glctmyxw105ska6jjbk2.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773590941/ltjbx2wmd92ibvjrrctc.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773590941/u5nuhh19wvd9jjlk3vbk.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773590942/ay6mft7jyll2r7exdheu.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773590940/zjqsf567lmvvri6gt8k0.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773590940/dxyyco6t9ah4tikv8i4p.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773590942/zfs6zlmw3wio0ikxzskb.png",
+        ]
     },
+    {
+        title: "Yum-Yum",
+        subtitle: "Online Food Ordering Platform",
+        description: "Full-stack food ordering platform with secure authentication and online payment integration.",
+        longDescription: "Yum-Yum is a scalable full-stack food ordering platform that allows users to browse restaurants, place orders, and complete payments online. The application is built with a React frontend and a Node.js/Express backend connected to a MongoDB database. Secure authentication and authorization are handled through Okta, ensuring safe user login and session management. The system also integrates Stripe for secure online payments, enabling real-time transaction processing and order confirmation.",
+        categories: ["web"],
+        tags: ["React", "Node.js", "Express", "MongoDB", "Okta", "Stripe"],
+        emoji: "🍔",
+        thumbnailUrl: "https://res.cloudinary.com/dywmv9onv/image/upload/v1773592160/vl1swnlncl6sgaim60no.png",
+        gradient: "from-orange-500 to-red-500",
+        accentColor: "#ea580c",
+        featured: true,
+        links: {
+            github: "YOUR_GITHUB_LINK"
+        },
+        highlights: [
+            { icon: "🍽️", label: "Restaurants", value: "Multi" },
+            { icon: "💳", label: "Payments", value: "Stripe" },
+            { icon: "🔐", label: "Authentication", value: "Okta" },
+        ],
+        features: [
+            {
+                title: "Restaurant & Menu Browsing",
+                description: "Users can explore restaurants, browse menus, and select items for ordering."
+            },
+            {
+                title: "Secure Authentication",
+                description: "Okta authentication provides secure user login, session handling, and role-based access."
+            },
+            {
+                title: "Order Management",
+                description: "RESTful APIs manage user profiles, order placement, and order tracking."
+            },
+            {
+                title: "Online Payment Integration",
+                description: "Stripe integration enables secure online payments and real-time transaction processing."
+            }
+        ],
+        techStack: [
+            { name: "React", role: "Frontend UI" },
+            { name: "Node.js", role: "Server Runtime" },
+            { name: "Express", role: "REST API Framework" },
+            { name: "MongoDB", role: "Database" },
+            { name: "Okta", role: "Authentication Server" },
+            { name: "Stripe", role: "Payment Gateway" }
+        ],
+        screenshots: [
+            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773592160/vl1swnlncl6sgaim60no.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773592159/wbthbtbe3eehsclh9wcj.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773592157/nw4hu7dgm97cvjhawthr.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773592159/vtlq7jjvuooc8317wztb.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773592157/iq2whp3besdrnms0lxym.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773592157/ipgyhh16sk08lwrrt4jc.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/v1773592157/rc8sf3zprgemwhumslo8.png",
+        ]
+    }
 ];
 
 /* ─── Screenshot display: real image URL or gradient placeholder ─── */
