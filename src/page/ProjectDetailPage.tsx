@@ -26,6 +26,90 @@ type ProjectDetail = {
 };
 
 const projects: ProjectDetail[] = [
+    {
+        title: "E-Commerce Microservices Platform",
+        subtitle: "Distributed Backend System",
+        description: "Scalable microservices-based e-commerce system with secure authentication and API gateway architecture.",
+
+        longDescription: "Designed and developed a distributed microservices-based e-commerce platform using Spring Cloud ecosystem. The system includes independent services for users, orders, products, and utilities, coordinated through a centralized API Gateway with service discovery via Netflix Eureka. Implemented secure authentication using Keycloak with JWT and role-based access control. The platform supports both relational and NoSQL databases, and includes a dynamic Angular admin dashboard for system management.",
+
+        categories: ["web"],
+
+        tags: [
+            "Spring Boot",
+            "Spring Cloud",
+            "Microservices",
+            "Docker",
+            "Keycloak",
+            "JWT",
+            "Angular",
+            "MySQL",
+            "MongoDB"
+        ],
+
+        emoji: "🛒",
+        gradient: "#850f0f",
+        thumbnailUrl: "https://res.cloudinary.com/dywmv9onv/image/upload/q_auto/f_auto/v1775050077/s5dz2vtnhh7mbz2xio51.png",
+        accentColor: "#850f0f",
+
+        links: {
+            github: "https://github.com/MarioShehan22/E_Commerce_Microservice_Application"
+        },
+
+        highlights: [
+            { icon: "🧩", label: "Architecture", value: "Microservices" },
+            { icon: "🔐", label: "Authentication", value: "Keycloak + JWT" },
+            { icon: "🚪", label: "Gateway", value: "Spring Cloud Gateway" },
+            { icon: "📡", label: "Service Discovery", value: "Netflix Eureka" },
+        ],
+
+        features: [
+            {
+                title: "Microservices Architecture",
+                description: "Separated services for users, products, orders, carts, and utilities with independent deployment and scalability."
+            },
+            {
+                title: "Secure Authentication System",
+                description: "Integrated Keycloak with OAuth2/OIDC, JWT tokens, and role-based access control across all services."
+            },
+            {
+                title: "API Gateway & Routing",
+                description: "Centralized request handling using Spring Cloud Gateway with routing, filtering, and security enforcement."
+            },
+            {
+                title: "Service Discovery",
+                description: "Dynamic service registration and communication using Netflix Eureka for fault-tolerant architecture."
+            },
+            {
+                title: "Multi-Database Support",
+                description: "Used MySQL for relational data and MongoDB for flexible NoSQL storage depending on service requirements."
+            },
+            {
+                title: "Admin Dashboard",
+                description: "Angular 17 dashboard with route guards, reactive forms, and optimized UI for system management."
+            }
+        ],
+
+        techStack: [
+            { name: "Spring Boot", role: "Backend Services" },
+            { name: "Spring Cloud", role: "Gateway & Discovery" },
+            { name: "Keycloak", role: "Authentication" },
+            { name: "Angular", role: "Frontend Dashboard" },
+            { name: "MySQL", role: "Relational Database" },
+            { name: "MongoDB", role: "NoSQL Database" },
+            { name: "Docker", role: "Containerization" }
+        ],
+
+        screenshots: [
+            "https://res.cloudinary.com/dywmv9onv/image/upload/q_auto/f_auto/v1775050071/ppxdnkvxcvz9zu5ggvqf.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/q_auto/f_auto/v1775050077/s5dz2vtnhh7mbz2xio51.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/q_auto/f_auto/v1775050077/s5dz2vtnhh7mbz2xio51.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/q_auto/f_auto/v1775050072/mrg8xnxg9sc1whzraesj.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/q_auto/f_auto/v1775050077/f99h2gact2c80gifjlzz.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/q_auto/f_auto/v1775050078/ea9nyoudhctidwd8kjwx.png",
+            "https://res.cloudinary.com/dywmv9onv/image/upload/q_auto/f_auto/v1775050070/u1fepasuapg68nnumyfo.png",
+        ],
+    },
     // {
     //     title: "Smart-Stock Prime",
     //     subtitle: "Inventory Management System",

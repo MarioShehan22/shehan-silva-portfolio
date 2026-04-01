@@ -106,7 +106,7 @@ function NavigationHeader() {
                         href="#contact"
                         className="hidden md:block bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-2 rounded-full text-white font-semibold hover:scale-105 transition-transform"
                     >
-                        Contact
+                        Hire Me
                     </a>
 
                     {/* Mobile menu button */}
@@ -161,6 +161,14 @@ function NavigationHeader() {
                             onClick={closeMobileMenu}
                         >
                             Contact
+                        </a>
+
+                        <a
+                            href="#contact"
+                            className="inline-block bg-gradient-to-r from-purple-500 to-pink-500 px-5 py-2 rounded-full text-white font-semibold hover:scale-105 transition-transform"
+                            onClick={closeMobileMenu}
+                        >
+                            Hire Me
                         </a>
                     </div>
                 </div>

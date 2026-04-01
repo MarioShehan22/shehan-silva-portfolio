@@ -123,7 +123,6 @@ function Hero() {
             id="home"
             className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8"
         >
-            {/* Three.js background container */}
             <div id="three-container" ref={threeContainerRef} />
 
             <div className="text-center max-w-5xl mx-auto">
@@ -135,9 +134,9 @@ function Hero() {
                 </div>
 
                 <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6 text-shadow leading-tight">
-                    Building <span className="gradient-text">innovative solutions</span>
-                    <br/>
-                    from IoT to Full-Stack
+                    Building <span className="gradient-text">secure backend systems</span>
+                    <br />
+                    and scalable full-stack applications
                 </h1>
 
                 <div className="flex items-center justify-center gap-4 text-xl sm:text-2xl mb-8 flex-wrap">
@@ -146,12 +145,12 @@ function Hero() {
                         className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center text-sm">
                         ⚡
                     </div>
-                    <span>CS Undergraduate & Full Stack Developer</span>
+                    <span>Software Engineer Intern | Full-Stack • Backend • DevOps</span>
                 </div>
 
                 <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
-                    Passionate about creating user-focused solutions with expertise in MERN stack,
-                    Spring Boot, and IoT systems. Currently pursuing BSc. (Hons) in Computer Science.
+                    Computer Science undergraduate with hands-on experience in Java, Spring Boot,
+                    React, RESTful APIs, authentication systems, Docker, and scalable application development.
                 </p>
 
                 <div className="flex items-center justify-center gap-6 flex-wrap">
@@ -171,16 +170,16 @@ function Hero() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-16 max-w-3xl mx-auto">
                     <div className="glass p-6 rounded-2xl text-center">
-                        <div className="text-3xl font-bold gradient-text">8+</div>
-                        <div className="text-gray-300 mt-2">Full-Stack & IoT Projects</div>
+                        <div className="text-3xl font-bold gradient-text">Spring Boot</div>
+                        <div className="text-gray-300 mt-2">Backend & API Engineering</div>
                     </div>
                     <div className="glass p-6 rounded-2xl text-center">
-                        <div className="text-3xl font-bold gradient-text">MERN <br/>+ Spring</div>
-                        <div className="text-gray-300 mt-2">Tech Stack Expertise</div>
+                        <div className="text-3xl font-bold gradient-text">Docker</div>
+                        <div className="text-gray-300 mt-2">Deployment & Containerization</div>
                     </div>
                     <div className="glass p-6 rounded-2xl text-center">
-                        <div className="text-3xl font-bold gradient-text">2+</div>
-                        <div className="text-gray-300 mt-2">Years Web Master Experience</div>
+                        <div className="text-3xl font-bold gradient-text">React</div>
+                        <div className="text-gray-300 mt-2">Modern Full-Stack Interfaces</div>
                     </div>
                 </div>
             </div>
